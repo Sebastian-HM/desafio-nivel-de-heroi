@@ -1,7 +1,9 @@
 // Variáveis para inicio do desafio
-let nomeHeroi = "Cavaleiro de Gotam";
-let xp = 9600; // exemplo de XP do herói
-let nivelHeroi = ""; // Definido segundo a XP
+const nomeHeroi = "Bianquita";
+console.log("Bem-vinda ao desafio " + nomeHeroi);
+
+let xp = 10002; // exemplo de XP do herói
+let nivelHeroi = (""); // Definido segundo a XP
 
 // Estrutura de decisão para definir o nível do herói
 if (xp <= 1000) {
@@ -23,7 +25,7 @@ if (xp <= 1000) {
 }
 
 // Mensagem final
-let mensagem = `O Herói ${nomeHeroi} atingiu o nível ${nivelHeroi}`;
+let mensagem = ("A Heroina " + nomeHeroi + " atingiu o nível: " + nivelHeroi);
 
 // Mensagem no console
 console.log(mensagem);
