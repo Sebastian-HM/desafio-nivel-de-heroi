@@ -1,7 +1,7 @@
 // Define as variáveis para inicio
-let nome = "Batman";
-let xp = 2600; // XP do herói (valor de exemplo)
-let nivel = ""; // Será definido baseado no XP
+let nome = "Cavaleiro de Gotam";
+let xp = 9600; // exemplo de XP do herói
+let nivel = ""; // Definido segundo a XP
 
 // Estrutura de decisão para classificar o herói
 if (xp <= 1000) {
@@ -22,8 +22,8 @@ if (xp <= 1000) {
     nivel = "Radiante";
 }
 
-// Monta a mensagem final com template literals (modo moderno)
-let mensagem = `O Herói ${nome} está no ${nivel}`;
+// Mensagem final
+let mensagem = `O Herói ${nome} está no nível ${nivel}`;
 
-// Exibe a mensagem no console
+// Mensagem no console
 console.log(mensagem);
