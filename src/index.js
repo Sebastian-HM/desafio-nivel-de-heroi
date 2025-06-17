@@ -1,29 +1,29 @@
-// Define as variáveis para inicio
-let nome = "Cavaleiro de Gotam";
+// Variáveis para inicio do desafio
+let nomeHeroi = "Cavaleiro de Gotam";
 let xp = 9600; // exemplo de XP do herói
-let nivel = ""; // Definido segundo a XP
+let nivelHeroi = ""; // Definido segundo a XP
 
-// Estrutura de decisão para classificar o herói
+// Estrutura de decisão para definir o nível do herói
 if (xp <= 1000) {
-    nivel = "Ferro";
+    nivelHeroi = "Ferro";
 } else if (xp >= 1001 && xp <= 2000) {
-    nivel = "Bronze";
+    nivelHeroi = "Bronze";
 } else if (xp >= 2001 && xp <= 5000) {
-    nivel = "Prata";
+    nivelHeroi = "Prata";
 } else if (xp >= 5001 && xp <= 7000) {
-    nivel = "Ouro";
+    nivelHeroi = "Ouro";
 } else if (xp >= 7001 && xp <= 8000) {
-    nivel = "Platina";
+    nivelHeroi = "Platina";
 } else if (xp >= 8001 && xp <= 9000) {
-    nivel = "Ascendente";
+    nivelHeroi = "Ascendente";
 } else if (xp >= 9001 && xp <= 10000) {
-    nivel = "Imortal";
+    nivelHeroi = "Imortal";
 } else if (xp >= 10001) {
-    nivel = "Radiante";
+    nivelHeroi = "Radiante";
 }
 
 // Mensagem final
-let mensagem = `O Herói ${nome} está no nível ${nivel}`;
+let mensagem = `O Herói ${nomeHeroi} atingiu o nível ${nivelHeroi}`;
 
 // Mensagem no console
 console.log(mensagem);
